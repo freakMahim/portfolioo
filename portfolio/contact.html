@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Mahim — Let’s Connect</title>
+<meta name="description" content="Get in touch with Mohsin Islam Mahim — email, phone, GitHub, LinkedIn, Instagram, Facebook and Discord.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Mahim — Let’s Connect">
+<meta property="og:description" content="Get in touch with Mohsin Islam Mahim — email, phone, GitHub, LinkedIn, Instagram, Facebook and Discord.">
+<meta property="og:image" content="./assets/images/profile.webp">
+<meta name="theme-color" content="#050b1a">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark"}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header><nav class="nav" id="nav" aria-label="Main"></nav></header>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<main id="main">
+<div style="position:relative"><div class="scene" data-scene="lite" aria-hidden="true" style="height:100%;opacity:.55"></div>
+<section class="page-head" style="position:relative;z-index:1"><div class="wrap"><p class="eyebrow" data-r>CONTACT</p><h1 data-r>LET'S CONNECT</h1>
+<p class="bio" style="margin-top:1rem" data-r>Have something to talk about, build, or explore?</p></div></section></div>
+<section style="padding-top:2rem"><div class="wrap"><div class="clist" id="clist"></div>
+<form id="form" aria-label="Contact form" data-r>
+<label>NAME<input name="name" required autocomplete="name"></label>
+<label>EMAIL<input name="email" type="email" required autocomplete="email"></label>
+<label>SUBJECT<input name="subject" required></label>
+<label>MESSAGE<textarea name="message" required></textarea></label>
+<button class="btn fill" type="submit">SEND MESSAGE</button><p class="fmsg" id="fmsg" role="status"></p></form></div></section>
+</main>
+<footer id="footer"></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="./script.js" defer></script>
+</body>
+</html>
