@@ -4,7 +4,6 @@ const SITE_CONFIG = {
   displayName: "MAHIM",
   tagline: "Turning numbers into insights.",
   email: "freakmahim@gmail.com",
-  phone: "01531711316",
   location: "Rajshahi, Bangladesh",
   socials: {
     github: "https://github.com/freakMahim",
